@@ -1,0 +1,580 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, sans-serif;
+}
+.menu{
+	background-color: #fff;
+}
+/* Nav */
+.active {
+	font-style: normal;
+	font-size: 20px;
+	font-weight: bold;
+	top: 43px;
+	left: 26px;
+	position: absolute;
+}
+.active ul li {
+	margin: 0 20px;
+}
+.logo{
+	position: absolute;
+	left: 85px;
+	top: 30px;
+}
+.logo img{
+	width: 49px;
+	top: 38px;
+}
+.nav {
+	display: inline-flex;
+	list-style: none;
+	top: 48px;
+	right: 397px;
+	position: absolute;
+}
+.nav li{
+	font-style: normal;
+	font-size: 13px;
+}
+.menu ul{
+	display: inline-flex;
+	margin: 50px;
+}
+.menu ul li{
+	list-style: none;
+	margin: 0 60px;
+	color: #000000;
+	cursor: pointer;
+}
+.menu ul li:hover{
+	color: #259BDE;
+}
+.login{
+	top: 35px;
+	right: 140px;
+	position: absolute;
+	text-decoration: none;
+	color: #259BDE;
+	border: 2px solid transparent;
+	border-radius: 20px;
+	background-image: linear-gradient(#259BDE, #259BDE),radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	width: 105px;
+	text-align: center;
+	cursor: pointer;
+}
+.login span{
+	font-weight: 400;
+	color: #FFFFFF;
+	display: block;
+	padding: 8px 22px;
+}
+.sign-up{
+	top: 35px;
+	right: 0;
+	position: absolute;
+	text-decoration: none;
+	color: #259BDE;
+	border: 2px solid #259BDE;
+	border-radius: 20px;
+	background-image: linear-gradient(#fff, #fff),radial-gradient(circle at top left,#fd00da,#19d7f8);
+	background-origin: border-box;
+	width: 105px;
+	cursor: pointer;
+	text-align: center;
+}
+.sign-up span{
+	font-weight: 400;
+	color: #259BDE;
+	display: block;
+	padding: 8px 22px;
+}
+/* Akhir Nav */
+/* Home */
+footer{
+	width: 100%;
+	height: 560px;
+	background-color: #CCEDFD;
+}
+.app-text h1{
+	font-size: 43px;
+	width: 640px;
+	position: absolute;
+	left: 160px;
+	top: 210px;
+	color:  #259BDE;
+}
+.app-text small{
+	position: absolute;
+	top: 360px;
+	left: 160px;
+	font-size: 13px;
+}
+.img img{
+	width: 500px;
+	position: absolute;
+	right: 100px;
+	top: 53px;
+}
+/* Akhir Home */
+/* Facility */
+.facilty p{
+	color: #676E72;
+	position: relative;
+	top: 325px;
+	text-align: center;
+}
+.facilty hr{
+	color: #676E72;
+	position: relative;
+	top: 315px;
+	text-align: center;
+}
+.kotak {
+	position: absolute;
+	bottom: -100px;
+	left: 295px;
+	width: 350px;
+	height: 220px;
+	background-color: #eee;
+}
+.kedua img{
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #3633D6;
+	position: absolute;
+	top: 550px;
+	left: 305px;
+}
+.kedua p{
+	font-size: 20px;
+	position: absolute;
+	top: 594px;
+	left: 306px;
+	color: #259BDE;
+}
+.kedua small{
+	position: absolute;
+	top: 647px;
+	left: 306px;
+	color: black
+}
+.kedua-1 img{
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #3633D6;
+	position: absolute;
+	top: 14px;
+	left: 10px;
+}
+.kotak-1 {
+	position: absolute;
+	bottom: -100px;
+	right: 290px;
+	width: 350px;
+	height: 220px;
+	background-color: #eee;
+}
+.kedua-1 p{
+	position: absolute;
+	font-size: 20px;
+	top: 56px;
+	left: 10px;
+	color: #259BDE;
+}
+.kedua-1 small{
+	position: absolute;
+	top: 110px;
+	left: 10px;
+	color: black
+}
+.kedua-2 img{
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #3633D6;
+	position: absolute;
+	top: 14px;
+	left: 10px;
+}
+.kotak-2 {
+	position: absolute;
+	bottom: -250px;
+	right: 410px;
+	width: 350px;
+	height: 220px;
+	background-color: #eee;
+}
+.kedua-2 p{
+	position: absolute;
+	font-size: 20px;
+	top: 56px;
+	left: 10px;
+	color: #259BDE;
+}
+.kedua-2 small{
+	position: absolute;
+	top: 110px;
+	left: 10px;
+	color: black
+}
+.kedua-3 img{
+	width: 50px;
+	height: 50px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #3633D6;
+	position: absolute;
+	top: 14px;
+	left: 10px;
+}
+.kotak-3 {
+	position: absolute;
+	bottom: 0px;
+	left: 410px;
+	width: 350px;
+	height: 220px;
+	background-color: #eee;
+}
+.kedua-3 p{
+	position: absolute;
+	font-size: 20px;
+	top: 56px;
+	left: 10px;
+	color: #259BDE;
+}
+.kedua-3 small{
+	position: absolute;
+	top: 109px;
+	left: 10px;
+	color: black
+}
+.lingkar1{
+	width: 320px;
+	height: 320px;
+	background-color: #CCEDFD;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	position: absolute;
+	top: 820px;
+	right: 0px;
+}
+/*Akhir Facilty*/
+/* Library*/
+.library p{
+	color: #676E72;
+	position: relative;
+	top: 465px;
+	text-align: center;
+}
+.library hr{
+	color: #676E72;
+	position: relative;
+	top: 455px;
+	text-align: center;
+}
+section{
+	position: absolute;
+	top: 1230px;
+	width: 100%;
+	height: 650px;
+	background-color: #fff;
+}
+.lingkar2{
+	background-color: #CCEDFD;
+	width: 330px;
+	height: 330px;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	position: absolute;
+	left: -170px;
+	top: 63px;
+}
+.read img{
+	position: absolute;
+	width: 350px;
+	top: 40px;
+	left: 230px;
+}
+.read p{
+	color: #259BDE;
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	top: 165px;
+	right: 320px;
+}
+.read small{
+	position: absolute;
+	top: 265px;
+	right: 275px;
+}
+/*Akhir Library*/
+/*Kategori*/
+.kategori p{
+	color: #676E72;
+	position: relative;
+	top: 510px;
+	text-align: center;
+}
+.kategori hr{
+	position: relative;
+	top: 500px;
+	text-align: center;
+}
+.cat1{
+	position: absolute;
+	left: 150px;
+	top: 1905px;
+	width: 300px;
+	height: 250px;
+	background-image: linear-gradient(to bottom left, #db1bf6, #19d7f8);
+	border-radius: 8px;
+}
+.cat1 img{
+	position: absolute;
+}
+.cat1 p{
+	font-size: 20px;
+	position: absolute;
+	top: 280px;
+	left: 60px;
+}
+.cat1 small{
+	position: absolute;
+	top: 330px;
+	left: 65px;
+}
+.cat1 h7{
+	position: absolute;
+	font-size: 16px;
+	top: 380px;
+	left: 97.5px;
+	color: #259BDE;
+}
+.cat2{
+	font-size: 14px;
+	width: 150px;
+	height: 50px;
+	background-color: #fff;
+	border: 1px solid #676E72;
+	text-align: center;
+	border-radius: 5px;
+	position: absolute;
+	top: 420px;
+	left: 67.5px;
+	cursor: pointer;
+}
+.cat3{
+	position: absolute;
+	left: 530px;
+	top: 1905px;
+	width: 300px;
+	height: 250px;
+	background-image: linear-gradient(to bottom left, #db1bf6, #19d7f8);
+	border-radius: 8px;
+}
+.cat3 img{
+	position: absolute;
+	left: 25px;
+}
+.cat3 p{
+	font-size: 20px;
+	position: absolute;
+	top: 280px;
+	left: 57px;
+}
+.cat3 small{
+	position: absolute;
+	top: 330px;
+	left: 118px;
+}
+.cat3 h7{
+	position: absolute;
+	font-size: 16px;
+	top: 380px;
+	left: 104px;
+	color: #259BDE;
+}
+.cat4 {
+	font-size: 14px;
+	width: 150px;
+	height: 50px;
+	background-color: #fff;
+	border: 1px solid #676E72;
+	text-align: center;
+	border-radius: 5px;
+	position: absolute;
+	top: 420px;
+	left: 75.5px;
+	cursor: pointer;
+}
+.cat5 {
+	position: absolute;
+	top: 1905px;
+	width: 300px;
+	height: 250px;
+	background-image: linear-gradient(to bottom left,  #db1bf6, #19d7f8);
+	border-radius: 8px;
+	left: 901.5px;
+}
+.cat5 img{
+	position: absolute;
+	left: 23px;
+}
+.cat5 p{
+	font-size: 20px;
+	position: absolute;
+	top: 280px;
+	left: 53px;
+}
+.cat5 small{
+	position: absolute;
+	top: 330px;
+	left: 97px;
+}
+.cat5 h7{
+	position: absolute;
+	font-size: 16px;
+	top: 380px;
+	left: 104px;
+	color: #259BDE;
+}
+.cat6 {
+	font-size: 14px;
+	width: 150px;
+	height: 50px;
+	background-color: #fff;
+	border: 1px solid #676E72;
+	text-align: center;
+	border-radius: 5px;
+	position: absolute;
+	top: 420px;
+	left: 75.5px;
+	cursor: pointer;
+}
+/*Akhir kategori*/
+/*More*/
+.more p{
+	position: relative;
+	top: 1700px;
+	text-align: center;
+	color: #676E72;
+}
+.more hr{
+	position: relative;
+	text-align: center;
+	top: 1690px;
+}
+.wa img{
+	position: relative;
+	left: 249px;
+	top: 1820px;
+	width: 50px;
+}
+.wa p{
+	position: relative;
+	left: 310px;
+	top: 1778px;
+	width: 50px;
+	color: #259BDE;
+}
+.face img{
+	position: relative;
+	left: 255px;
+	top: 1800px;
+	width: 35px;
+}
+.face p{
+	position: relative;
+	left: 310px;
+	top: 1753px;
+	width: 50px;
+	color: #259BDE;
+}
+.twit img{
+	position: relative;
+	left: 257px;
+	top: 1780px;
+	width: 29px;
+}
+.twit p{
+	position: relative;
+	left: 310px;
+	top: 1735px;
+	width: 50px;
+	color: #259BDE;
+}
+.mail img{
+	position: absolute;
+	left: 890px;
+	top: 2610px;
+	width: 29px;
+}
+.mail p{
+	position: relative;
+	left: 940px;
+	top: 1566.5px;
+	width: 50px;
+	color: #259BDE;
+}
+.insta img{
+	position: relative;
+	left: 889px;
+	top: 1595px;
+	width: 32px;
+}
+.insta p{
+	position: relative;
+	left: 940px;
+	top: 1551px;
+	width: 50px;
+	color: #259BDE;
+}
+.alamat img{
+	position: relative;
+	left: 892px;
+	top: 1578px;
+	width: 28px;
+}
+.alamat p{
+	position: relative;
+	left: 940px;
+	top: 1535.5px;
+	width: 150px;
+	color: #259BDE;
+}
+/*Akhir more*/
+/*Copy*/
+section1{
+	width: 100%;
+	height: 42px;
+	background-color: #CCEDFD;
+	position: absolute;
+	top: 3040px;
+}
+section1 p{
+	color: #999999;
+	font-size: 13px;
+	position: absolute;
+	left: 150px;
+}
+/*Akhir copy*/
+
+
+
