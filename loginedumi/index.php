@@ -36,9 +36,6 @@ if(isset($_POST["login"])){
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <!-- MY CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-
     <title>Login</title>
 
     <style>
@@ -46,12 +43,6 @@ if(isset($_POST["login"])){
             margin:0;
             padding:0;
             overflow-x: hidden;
-            font-family: arial;
-        }
-        @media (min-width: 400px) {
-            nav {
-                width: 100%;
-            }
         }
     </style>
   </head>
@@ -73,9 +64,7 @@ if(isset($_POST["login"])){
     <div class="col-lg-6 mt-5 ml-4">
     <h1 class="text-primary font-weight-bold">Login ke Akun Anda</h1>   
         <?php if(isset( $error)):?>
-            <p style=" position: absolute;
-        top: 200px;
-        left: 790px; color:red; font-style:italic">Username / Password Salah</p>
+            <p style="color:red; font-style:italic">Username / Password Salah</p>
         <?php endif?>
         <form action="" method="post">
             <div class="form-group">
@@ -88,6 +77,7 @@ if(isset($_POST["login"])){
             </div>
             <button type="submit" class="btn btn-primary" name="login">Login</button>
         </form>
+        <a href="../sign-up"><p class="mt-4 text-primary">Belum punya akun, silahkan  <b>daftar</b> terlebih dahulu</p></a>     
     </div>
   </div>
 

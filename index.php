@@ -25,10 +25,11 @@ if(!isset($_SESSION["login"])){
             <img src="img/lampu.png" alt="">
         </div>
         <ul>
-            <li><a href="">Facility</a></li>
-            <li><a href="">Library</a></li>
-            <li><a href="">Category</a></li>
-            <li><a href="">More Info</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#fasilitas">Fasilitas</a></li>
+            <li><a href="#library">Library</a></li>
+            <li><a href="#kategori">Kategori</a></li>
+            <li><a href="#info">Info</a></li>
             <li><a href="loginedumi/index.php">Login</a></li>
             <li><a href="sign-up/index.php">Sign Up</a></li>
             <li><a href="logout.php">Logout</a></li>
@@ -42,7 +43,7 @@ if(!isset($_SESSION["login"])){
     </nav>
     <!-- Akhir Navbar -->
     <!-- Home -->
-    <div class="home">
+    <div class="home" id="home">
     <div class="container">
     <div class="row">
         <div class="col-lg-6 d-flex align-items-center">
@@ -62,8 +63,8 @@ if(!isset($_SESSION["login"])){
     <!-- Akhir Home -->
     <!-- Facility -->
     
-    <div class="facilty m-3">
-                <b><p>FACILITY</p></b>
+    <div class="facilty m-3" id="facilty">
+                <b><p>FASILITAS</p></b>
                 <hr width="2.5%" color="#676E72">
     </div>
 
@@ -136,7 +137,7 @@ if(!isset($_SESSION["login"])){
        
     <!-- Akhir Facility -->
     <!-- Library -->
-    <section>
+    <section id="library">
     <div class="library m-3">
         <b><p>LIBRARY</p></b>
         <hr width="2.5%" color="#676E72">
@@ -159,8 +160,8 @@ if(!isset($_SESSION["login"])){
 
     <!-- Akhir Library -->
     <!-- Category -->
-    <div class="kategori">
-            <b><p>CATEGORY</p></b>
+    <div class="kategori" id="kategori">
+            <b><p>KATEGORI</p></b>
             <hr width="2.5%" color="#676E72">
     </div>    
    
@@ -202,8 +203,8 @@ if(!isset($_SESSION["login"])){
     <!-- Akhir category -->
     <!-- More info -->
 
-    <div class="more mt-5">
-        <b><p>More Info</p></b>
+    <div class="more mt-5" id="info">
+        <b><p>Info</p></b>
         <hr width="2.5%" color="#676E72">
     </div>
 
@@ -230,7 +231,7 @@ if(!isset($_SESSION["login"])){
     </section>
 
     <footer class="d-flex align-items-center">
-    <p>CopyRight @ Edu Mi 2019</p>
+    <p>CopyRight @ Edu Mi 2021</p>
     </footer>
     
     <!-- Akhir more -->

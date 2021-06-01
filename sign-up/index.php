@@ -1,15 +1,11 @@
 <?php
-session_start();
-if(!isset($_SESSION["login"])){
-	header("location: ../loginedumi/index.php");
-	exit;
-}
 require '../functions.php';
 if(isset($_POST["register"])){
 	if(registrasi($_POST) >
 0){ echo "
 <script>
   alert('User baru berhasil ditambahkan');
+  window.location.replace('../loginedumi/index.php');
 </script>
 "; }else{ echo mysqli_error($conn); } } 
 ?>
@@ -24,6 +20,11 @@ if(isset($_POST["register"])){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <title>Sign UP</title>
+    <style>
+      body{
+        overflow-x: hidden;
+      }
+    </style>
   </head>
   <body>
 
@@ -39,7 +40,7 @@ if(isset($_POST["register"])){
             <p>Silahkan buat akun untuk bisa login</p>        
         </a>        
         </nav>                                              
-    <div class="col-lg-10">
+    <div class="col-lg-12">
         <h1 class="text-primary font-weight-bold">Silahkan Buat Akun Anda</h1>
         <form action="" method="post">
             <div class="form-group">
